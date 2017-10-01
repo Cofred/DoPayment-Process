@@ -5,16 +5,15 @@ This method is used to perform Transfer between Cofred Accounts
 
 HTTP Method: POST
 
-
-Resource Url
+# Resource Url
 
 https://cofred.com/secure/api/v1/doPayment
 
-Headers
+# Headers
 
 See our Guide for how to setup Header https://github.com/cofred/Header-Authentication
 
-Authentication Headers Example
+# Authentication Headers Example
 
 merchant_id: VF9CMTY3WURPZUpJdkNnVWJWRXE=   // Base64 Encoded
 
@@ -26,7 +25,7 @@ access_token: dUp4dEtybVg0Ump4MEFT  // Base64 Encoded
 
 timestamp: 1505628722
 
-Request Parameters
+# Request Parameters
 
 Field	M/O	Length	Format	Description
 
@@ -44,11 +43,11 @@ Benificiery Phone	O			Phone Number of Benificiery
 
 Payment Channel	M			
 				
-DoPayment Response
+# DoPayment Response
 
 A HTTP response code 200 is sent back for a success
 
-Response Parameters
+# Response Parameters
 
 Field	Description
 
@@ -60,7 +59,7 @@ TransactionDate	Date and Time of Transaction
 
 responseMessage	Response Message which will return Transaction success message
 
-Sample Response
+# Sample Response
 
 200
 
@@ -71,6 +70,6 @@ Sample Response
   "responseMessage":"Transaction successfull!"
 }
 
-Communication
+# Communication
 
 Requests will be sent over the REST protocol using POST Method.
