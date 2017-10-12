@@ -1,7 +1,7 @@
 # DoPayment-Process
 DoPayment Process guide for API
 
-This method is used to perform Transfer between Cofred Accounts
+This method is used to perform Transfer between Cofred Users
 
 HTTP Method: POST
 
@@ -23,13 +23,13 @@ terminal_id: YINCU
 
 access_token: dUp4dEtybVg0Ump4MEFT  // Base64 Encoded
 
-timestamp: 1505628722
+timestamp: 1505628722 // Current Time in Unix Format
 
 # Request Parameters
 
 Field	M/O	Length	Format	Description
 
-Account Number	M	10	Numeric	Account Number to get Name
+User ID	M	7	Numeric	User ID to which amount will be transfer
 
 Amount	M		Numeric	Transaction Amount
 
