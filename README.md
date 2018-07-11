@@ -29,9 +29,11 @@ timestamp: 1505628722 // Current Time in Unix Format
 
 Field	M/O	Length	Format	Description
 
-User ID	M	7	Numeric	User ID to which amount will be transfer
+User ID / Account Number M	7/10 Numeric 	User ID or Account Number to which amount will be transfer
 
-Amount	M		Numeric	Transaction Amount
+Amount	M			Numeric		Transaction Amount
+
+Currency Symbol M 		3     Letters	Amount Currency (e.g. GHS, NGN, EUR, USD)
 
 Reference	M		Alpha Numeric	Merchant Reference ID
 
