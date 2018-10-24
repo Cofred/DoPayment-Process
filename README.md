@@ -7,7 +7,7 @@ HTTP Method: POST
 
 # Resource Url
 
-https://cofredpayaccess.com/secure/api/v1/doPayment
+https://cofredpayaccess.com/api/v1/doPayment
 
 # Headers
 
