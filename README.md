@@ -37,11 +37,11 @@ Currency Symbol M 		3     Letters	Amount Currency (e.g. GHS, NGN, EUR, USD)
 
 Reference	M		Alpha Numeric	Merchant Reference ID
 
-Benificiery Last Name	O			Last name of Benificiery
+Beneficiary Last Name	O			Last name of Beneficiary
 
-Benificiery Email	O			Email Address of Benificiery
+Beneficiary Email	O			Email Address of Beneficiary
 
-Benificiery Phone	O			Phone Number of Benificiery
+Beneficiary Phone	O			Phone Number of Beneficiary
 
 Payment Channel	M			
 				
