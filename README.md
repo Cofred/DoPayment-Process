@@ -33,7 +33,7 @@ User ID / Account Number M	7/10 Numeric 	User ID or Account Number to which amou
 
 Amount	M			Numeric		Transaction Amount
 
-Currency Symbol M 		3     Letters	Amount Currency (e.g. GHS, NGN, EUR, USD)
+Currency Symbol M 		3     Letters	Amount Currency (e.g. GHS, NGN, USD)
 
 Reference	M		Alpha Numeric	Merchant Reference ID
 
